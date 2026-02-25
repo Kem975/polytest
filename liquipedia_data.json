@@ -1,0 +1,1942 @@
+{
+  "generated_at": "2026-02-25T16:57:05.459604+00:00",
+  "upcoming_vitality": [
+    {
+      "tournament_name": "",
+      "tournament_page": "BLAST/Open/2026/Spring",
+      "date_range": "Mar 18\u201329",
+      "timestamp": 1773792000
+    }
+  ],
+  "recent_matches_vitality": [
+    {
+      "date": "2026-02-22",
+      "timestamp": 1771776000,
+      "team1": "Team Vitality",
+      "team2": "PARIVISION",
+      "score1": 3,
+      "score2": 0,
+      "winner": "Team Vitality",
+      "tournament": "PGL Cluj-Napoca 2026 - Playoffs",
+      "tournament_page": "PGL/2026/Cluj-Napoca",
+      "tier": "S",
+      "match_type": "Offline",
+      "best_of": "",
+      "stage": "",
+      "maps": []
+    },
+    {
+      "date": "2026-02-21",
+      "timestamp": 1771696800,
+      "team1": "Team Vitality",
+      "team2": "The MongolZ",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Team Vitality",
+      "tournament": "PGL Cluj-Napoca 2026 - Playoffs",
+      "tournament_page": "PGL/2026/Cluj-Napoca",
+      "tier": "S",
+      "match_type": "Offline",
+      "best_of": "",
+      "stage": "",
+      "maps": []
+    },
+    {
+      "date": "2026-02-20",
+      "timestamp": 1771599300,
+      "team1": "Team Vitality",
+      "team2": "Aurora Gaming",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Team Vitality",
+      "tournament": "PGL Cluj-Napoca 2026 - Playoffs",
+      "tournament_page": "PGL/2026/Cluj-Napoca",
+      "tier": "S",
+      "match_type": "Offline",
+      "best_of": "",
+      "stage": "",
+      "maps": []
+    },
+    {
+      "date": "2026-02-16",
+      "timestamp": 1771254600,
+      "team1": "Team Vitality",
+      "team2": "MOUZ",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Team Vitality",
+      "tournament": "PGL Cluj-Napoca 2026 - Round 3",
+      "tournament_page": "PGL/2026/Cluj-Napoca",
+      "tier": "S",
+      "match_type": "Offline",
+      "best_of": "",
+      "stage": "",
+      "maps": []
+    },
+    {
+      "date": "2026-02-15",
+      "timestamp": 1771177200,
+      "team1": "Team Vitality",
+      "team2": "The MongolZ",
+      "score1": 2,
+      "score2": 1,
+      "winner": "Team Vitality",
+      "tournament": "PGL Cluj-Napoca 2026 - Round 2",
+      "tournament_page": "PGL/2026/Cluj-Napoca",
+      "tier": "S",
+      "match_type": "Offline",
+      "best_of": "",
+      "stage": "",
+      "maps": []
+    },
+    {
+      "date": "2026-02-14",
+      "timestamp": 1771080000,
+      "team1": "Team Vitality",
+      "team2": "G2 Esports",
+      "score1": 2,
+      "score2": 1,
+      "winner": "Team Vitality",
+      "tournament": "PGL Cluj-Napoca 2026 - Round 1",
+      "tournament_page": "PGL/2026/Cluj-Napoca",
+      "tier": "S",
+      "match_type": "Offline",
+      "best_of": "",
+      "stage": "",
+      "maps": []
+    },
+    {
+      "date": "2026-02-08",
+      "timestamp": 1770566400,
+      "team1": "Team Vitality",
+      "team2": "FURIA",
+      "score1": 3,
+      "score2": 1,
+      "winner": "Team Vitality",
+      "tournament": "IEM Krak\u00f3w 2026 - Playoffs",
+      "tournament_page": "Intel_Extreme_Masters/2026/Krak%C3%B3w",
+      "tier": "S",
+      "match_type": "Offline",
+      "best_of": "",
+      "stage": "",
+      "maps": []
+    },
+    {
+      "date": "2026-02-07",
+      "timestamp": 1770491400,
+      "team1": "Team Vitality",
+      "team2": "MOUZ",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Team Vitality",
+      "tournament": "IEM Krak\u00f3w 2026 - Playoffs",
+      "tournament_page": "Intel_Extreme_Masters/2026/Krak%C3%B3w",
+      "tier": "S",
+      "match_type": "Offline",
+      "best_of": "",
+      "stage": "",
+      "maps": []
+    },
+    {
+      "date": "2026-02-03",
+      "timestamp": 1770144000,
+      "team1": "Team Vitality",
+      "team2": "Aurora Gaming",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Team Vitality",
+      "tournament": "IEM Krak\u00f3w 2026 - Group B",
+      "tournament_page": "Intel_Extreme_Masters/2026/Krak%C3%B3w",
+      "tier": "S",
+      "match_type": "Offline",
+      "best_of": "",
+      "stage": "",
+      "maps": []
+    },
+    {
+      "date": "2026-02-02",
+      "timestamp": 1770037200,
+      "team1": "Team Vitality",
+      "team2": "3DMAX",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Team Vitality",
+      "tournament": "IEM Krak\u00f3w 2026 - Group B",
+      "tournament_page": "Intel_Extreme_Masters/2026/Krak%C3%B3w",
+      "tier": "S",
+      "match_type": "Offline",
+      "best_of": "",
+      "stage": "",
+      "maps": []
+    }
+  ],
+  "results_vitality": [
+    {
+      "date": "2026-02-08",
+      "placement": "1st",
+      "tier": "S",
+      "event_type": "Offline",
+      "tournament": "Intel Extreme Masters Krak\u00f3w 2026",
+      "tournament_page": "Intel_Extreme_Masters/2026/Krak%C3%B3w",
+      "result": "3\u00a0:\u00a01",
+      "opponent": "FURIA",
+      "prize": "$400,000"
+    },
+    {
+      "date": "2025-12-14",
+      "placement": "1st",
+      "tier": "S",
+      "event_type": "Offline",
+      "tournament": "StarLadder Budapest Major 2025",
+      "tournament_page": "StarLadder/2025/Major",
+      "result": "3\u00a0:\u00a01",
+      "opponent": "FaZe Clan",
+      "prize": "$500,000"
+    },
+    {
+      "date": "2025-06-22",
+      "placement": "1st",
+      "tier": "S",
+      "event_type": "Offline",
+      "tournament": "BLAST.tv Austin Major 2025",
+      "tournament_page": "BLAST/Major/2025/Austin",
+      "result": "2\u00a0:\u00a01",
+      "opponent": "The MongolZ",
+      "prize": "$500,000"
+    },
+    {
+      "date": "2025-02-09",
+      "placement": "1st",
+      "tier": "S",
+      "event_type": "Offline",
+      "tournament": "Intel Extreme Masters Katowice 2025",
+      "tournament_page": "Intel_Extreme_Masters/2025/Katowice",
+      "result": "3\u00a0:\u00a00",
+      "opponent": "Team Spirit",
+      "prize": "$400,000"
+    },
+    {
+      "date": "2024-08-18",
+      "placement": "1st",
+      "tier": "S",
+      "event_type": "Offline",
+      "tournament": "Intel Extreme Masters Cologne 2024",
+      "tournament_page": "Intel_Extreme_Masters/2024/Cologne",
+      "result": "3\u00a0:\u00a01",
+      "opponent": "Natus Vincere",
+      "prize": "$400,000"
+    },
+    {
+      "date": "2023-12-17",
+      "placement": "1st",
+      "tier": "S",
+      "event_type": "Offline",
+      "tournament": "BLAST Premier: World Final 2023",
+      "tournament_page": "BLAST/Premier/2023/World_Final",
+      "result": "2\u00a0:\u00a00",
+      "opponent": "FaZe Clan",
+      "prize": "$500,000"
+    },
+    {
+      "date": "2023-08-20",
+      "placement": "1st",
+      "tier": "S",
+      "event_type": "Offline",
+      "tournament": "Gamers8 2023",
+      "tournament_page": "Gamers8/2023",
+      "result": "2\u00a0:\u00a01",
+      "opponent": "ENCE",
+      "prize": "$400,000"
+    },
+    {
+      "date": "2023-05-21",
+      "placement": "1st",
+      "tier": "S",
+      "event_type": "Offline",
+      "tournament": "BLAST.tv Paris Major 2023",
+      "tournament_page": "BLAST/Major/2023/Paris",
+      "result": "2\u00a0:\u00a00",
+      "opponent": "GamerLegion",
+      "prize": "$500,000"
+    }
+  ],
+  "tournament_matches": [
+    {
+      "date": "2025-09-21",
+      "timestamp": 1758466800,
+      "team1": "The MongolZ",
+      "team2": "FURIA",
+      "score1": 2,
+      "score2": 3,
+      "winner": "FURIA",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo5",
+      "stage": "Playoffs",
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "team1_score": 13,
+          "team2_score": 16,
+          "team1_t_rounds": 8,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 10,
+          "team2_ct_rounds": 6,
+          "winner": "FURIA"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 11,
+          "team1_t_rounds": 9,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 3,
+          "winner": "The MongolZ"
+        },
+        {
+          "map_name": "Nuke",
+          "team1_score": 12,
+          "team2_score": 16,
+          "team1_t_rounds": 3,
+          "team1_ct_rounds": 9,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 10,
+          "winner": "FURIA"
+        },
+        {
+          "map_name": "Overpass",
+          "team1_score": 13,
+          "team2_score": 9,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 5,
+          "winner": "The MongolZ"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 5,
+          "team2_score": 13,
+          "team1_t_rounds": 0,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 7,
+          "team2_ct_rounds": 6,
+          "winner": "FURIA"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-20",
+      "timestamp": 1758384000,
+      "team1": "FURIA",
+      "team2": "Team Falcons",
+      "score1": 2,
+      "score2": 0,
+      "winner": "FURIA",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Playoffs",
+      "maps": [
+        {
+          "map_name": "Train",
+          "team1_score": 16,
+          "team2_score": 12,
+          "team1_t_rounds": 8,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 7,
+          "team2_ct_rounds": 5,
+          "winner": "FURIA"
+        },
+        {
+          "map_name": "Nuke",
+          "team1_score": 13,
+          "team2_score": 11,
+          "team1_t_rounds": 7,
+          "team1_ct_rounds": 6,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 5,
+          "winner": "FURIA"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-20",
+      "timestamp": 1758369600,
+      "team1": "Team Liquid",
+      "team2": "The MongolZ",
+      "score1": 1,
+      "score2": 2,
+      "winner": "The MongolZ",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Playoffs",
+      "maps": [
+        {
+          "map_name": "Dust II",
+          "team1_score": 3,
+          "team2_score": 13,
+          "team1_t_rounds": 1,
+          "team1_ct_rounds": 2,
+          "team2_t_rounds": 2,
+          "team2_ct_rounds": 11,
+          "winner": "The MongolZ"
+        },
+        {
+          "map_name": "Mirage",
+          "team1_score": 13,
+          "team2_score": 5,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 0,
+          "winner": "Team Liquid"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 5,
+          "team2_score": 13,
+          "team1_t_rounds": 3,
+          "team1_ct_rounds": 2,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 9,
+          "winner": "The MongolZ"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-19",
+      "timestamp": 1758309000,
+      "team1": "PaiN Gaming",
+      "team2": "Team Falcons",
+      "score1": 0,
+      "score2": 2,
+      "winner": "Team Falcons",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Playoffs",
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "team1_score": 4,
+          "team2_score": 13,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 0,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 8,
+          "winner": "Team Falcons"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 6,
+          "team2_score": 13,
+          "team1_t_rounds": 1,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 7,
+          "team2_ct_rounds": 6,
+          "winner": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-19",
+      "timestamp": 1758296100,
+      "team1": "FURIA",
+      "team2": "Astralis",
+      "score1": 2,
+      "score2": 0,
+      "winner": "FURIA",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Playoffs",
+      "maps": [
+        {
+          "map_name": "Train",
+          "team1_score": 13,
+          "team2_score": 9,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 9,
+          "team2_t_rounds": 1,
+          "team2_ct_rounds": 8,
+          "winner": "FURIA"
+        },
+        {
+          "map_name": "Nuke",
+          "team1_score": 19,
+          "team2_score": 15,
+          "team1_t_rounds": 7,
+          "team1_ct_rounds": 12,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 9,
+          "winner": "FURIA"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-19",
+      "timestamp": 1758284400,
+      "team1": "Aurora Gaming",
+      "team2": "Team Liquid",
+      "score1": 0,
+      "score2": 2,
+      "winner": "Team Liquid",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Playoffs",
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "team1_score": 9,
+          "team2_score": 13,
+          "team1_t_rounds": 2,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 8,
+          "winner": "Team Liquid"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 8,
+          "team2_score": 13,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 2,
+          "team2_t_rounds": 7,
+          "team2_ct_rounds": 6,
+          "winner": "Team Liquid"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-19",
+      "timestamp": 1758269400,
+      "team1": "The MongolZ",
+      "team2": "G2 Esports",
+      "score1": 2,
+      "score2": 1,
+      "winner": "The MongolZ",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Playoffs",
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "team1_score": 13,
+          "team2_score": 11,
+          "team1_t_rounds": 9,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 3,
+          "winner": "The MongolZ"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 7,
+          "team2_score": 13,
+          "team1_t_rounds": 3,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 5,
+          "winner": "G2 Esports"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 13,
+          "team2_score": 9,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 4,
+          "winner": "The MongolZ"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-17",
+      "timestamp": 1758121500,
+      "team1": "PaiN Gaming",
+      "team2": "Virtus.pro",
+      "score1": 2,
+      "score2": 1,
+      "winner": "PaiN Gaming",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 5 Matches",
+      "maps": [
+        {
+          "map_name": "Dust II",
+          "team1_score": 13,
+          "team2_score": 5,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 9,
+          "team2_t_rounds": 3,
+          "team2_ct_rounds": 2,
+          "winner": "PaiN Gaming"
+        },
+        {
+          "map_name": "Mirage",
+          "team1_score": 11,
+          "team2_score": 13,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 8,
+          "winner": "Virtus.pro"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 9,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 9,
+          "team2_t_rounds": 1,
+          "team2_ct_rounds": 8,
+          "winner": "PaiN Gaming"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-17",
+      "timestamp": 1758110400,
+      "team1": "Astralis",
+      "team2": "GamerLegion",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Astralis",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 5 Matches",
+      "maps": [
+        {
+          "map_name": "Overpass",
+          "team1_score": 13,
+          "team2_score": 9,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 9,
+          "team2_t_rounds": 3,
+          "team2_ct_rounds": 6,
+          "winner": "Astralis"
+        },
+        {
+          "map_name": "Nuke",
+          "team1_score": 13,
+          "team2_score": 10,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 3,
+          "team2_ct_rounds": 7,
+          "winner": "Astralis"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-17",
+      "timestamp": 1758100800,
+      "team1": "FaZe Clan",
+      "team2": "Team Liquid",
+      "score1": 0,
+      "score2": 2,
+      "winner": "Team Liquid",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 5 Matches",
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "team1_score": 6,
+          "team2_score": 13,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 2,
+          "team2_t_rounds": 10,
+          "team2_ct_rounds": 3,
+          "winner": "Team Liquid"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 7,
+          "team2_score": 13,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 3,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 8,
+          "winner": "Team Liquid"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-16",
+      "timestamp": 1758045900,
+      "team1": "Astralis",
+      "team2": "Legacy",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Astralis",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 4 Low Matches",
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "team1_score": 13,
+          "team2_score": 8,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 3,
+          "winner": "Astralis"
+        },
+        {
+          "map_name": "Nuke",
+          "team1_score": 13,
+          "team2_score": 8,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 9,
+          "team2_t_rounds": 0,
+          "team2_ct_rounds": 8,
+          "winner": "Astralis"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-16",
+      "timestamp": 1758043800,
+      "team1": "FURIA",
+      "team2": "PaiN Gaming",
+      "score1": 2,
+      "score2": 0,
+      "winner": "FURIA",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 4 High Matches",
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 4,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 9,
+          "team2_t_rounds": 3,
+          "team2_ct_rounds": 1,
+          "winner": "FURIA"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 13,
+          "team2_score": 10,
+          "team1_t_rounds": 8,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 4,
+          "winner": "FURIA"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-16",
+      "timestamp": 1758031200,
+      "team1": "TYLOO",
+      "team2": "Team Liquid",
+      "score1": 1,
+      "score2": 2,
+      "winner": "Team Liquid",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 4 Low Matches",
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "team1_score": 10,
+          "team2_score": 13,
+          "team1_t_rounds": 2,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 9,
+          "winner": "Team Liquid"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 9,
+          "team1_t_rounds": 7,
+          "team1_ct_rounds": 6,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 5,
+          "winner": "TYLOO"
+        },
+        {
+          "map_name": "Mirage",
+          "team1_score": 8,
+          "team2_score": 13,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 5,
+          "winner": "Team Liquid"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-16",
+      "timestamp": 1758027900,
+      "team1": "FaZe Clan",
+      "team2": "The MongolZ",
+      "score1": 1,
+      "score2": 2,
+      "winner": "The MongolZ",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 4 High Matches",
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "team1_score": 11,
+          "team2_score": 13,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 7,
+          "team2_ct_rounds": 6,
+          "winner": "The MongolZ"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 16,
+          "team2_score": 13,
+          "team1_t_rounds": 9,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 5,
+          "winner": "FaZe Clan"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 5,
+          "team2_score": 13,
+          "team1_t_rounds": 1,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 5,
+          "winner": "The MongolZ"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-16",
+      "timestamp": 1758013200,
+      "team1": "G2 Esports",
+      "team2": "GamerLegion",
+      "score1": 2,
+      "score2": 1,
+      "winner": "G2 Esports",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 4 High Matches",
+      "maps": [
+        {
+          "map_name": "Overpass",
+          "team1_score": 5,
+          "team2_score": 13,
+          "team1_t_rounds": 1,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 5,
+          "winner": "GamerLegion"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 13,
+          "team2_score": 2,
+          "team1_t_rounds": 10,
+          "team1_ct_rounds": 3,
+          "team2_t_rounds": 0,
+          "team2_ct_rounds": 2,
+          "winner": "G2 Esports"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 10,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 6,
+          "winner": "G2 Esports"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-16",
+      "timestamp": 1758013200,
+      "team1": "3DMAX",
+      "team2": "Virtus.pro",
+      "score1": 1,
+      "score2": 2,
+      "winner": "Virtus.pro",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 4 Low Matches",
+      "maps": [
+        {
+          "map_name": "Train",
+          "team1_score": 11,
+          "team2_score": 13,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 8,
+          "winner": "Virtus.pro"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 5,
+          "team1_t_rounds": 9,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 2,
+          "team2_ct_rounds": 3,
+          "winner": "3DMAX"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 11,
+          "team2_score": 13,
+          "team1_t_rounds": 7,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 5,
+          "winner": "Virtus.pro"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "timestamp": 1757962200,
+      "team1": "Aurora Gaming",
+      "team2": "FURIA",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Aurora Gaming",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 3 High Matches",
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 5,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 1,
+          "winner": "Aurora Gaming"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 13,
+          "team2_score": 11,
+          "team1_t_rounds": 7,
+          "team1_ct_rounds": 6,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 5,
+          "winner": "Aurora Gaming"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "timestamp": 1757960400,
+      "team1": "Astralis",
+      "team2": "PaiN Gaming",
+      "score1": 0,
+      "score2": 2,
+      "winner": "PaiN Gaming",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 3 Mid Matches",
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "team1_score": 5,
+          "team2_score": 13,
+          "team1_t_rounds": 0,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 7,
+          "team2_ct_rounds": 6,
+          "winner": "PaiN Gaming"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 14,
+          "team2_score": 16,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 10,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 11,
+          "winner": "PaiN Gaming"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "timestamp": 1757952300,
+      "team1": "FaZe Clan",
+      "team2": "Team Falcons",
+      "score1": 0,
+      "score2": 2,
+      "winner": "Team Falcons",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 3 High Matches",
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "team1_score": 11,
+          "team2_score": 13,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 6,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 7,
+          "winner": "Team Falcons"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 6,
+          "team2_score": 13,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 2,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 8,
+          "winner": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "timestamp": 1757952000,
+      "team1": "G2 Esports",
+      "team2": "Legacy",
+      "score1": 2,
+      "score2": 0,
+      "winner": "G2 Esports",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 3 Mid Matches",
+      "maps": [
+        {
+          "map_name": "Train",
+          "team1_score": 13,
+          "team2_score": 2,
+          "team1_t_rounds": 3,
+          "team1_ct_rounds": 10,
+          "team2_t_rounds": 2,
+          "team2_ct_rounds": 0,
+          "winner": "G2 Esports"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 13,
+          "team2_score": 7,
+          "team1_t_rounds": 8,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 3,
+          "team2_ct_rounds": 4,
+          "winner": "G2 Esports"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "timestamp": 1757937300,
+      "team1": "3DMAX",
+      "team2": "GamerLegion",
+      "score1": 1,
+      "score2": 2,
+      "winner": "GamerLegion",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 3 Mid Matches",
+      "maps": [
+        {
+          "map_name": "Overpass",
+          "team1_score": 16,
+          "team2_score": 14,
+          "team1_t_rounds": 7,
+          "team1_ct_rounds": 9,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 8,
+          "winner": "3DMAX"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 10,
+          "team2_score": 13,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 5,
+          "winner": "GamerLegion"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 9,
+          "team2_score": 13,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 7,
+          "team2_ct_rounds": 6,
+          "winner": "GamerLegion"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "timestamp": 1757936400,
+      "team1": "Team Liquid",
+      "team2": "HEROIC",
+      "score1": 2,
+      "score2": 1,
+      "winner": "Team Liquid",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 3 Low Matches",
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "team1_score": 13,
+          "team2_score": 8,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 9,
+          "team2_t_rounds": 3,
+          "team2_ct_rounds": 5,
+          "winner": "Team Liquid"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 8,
+          "team2_score": 13,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 3,
+          "team2_t_rounds": 9,
+          "team2_ct_rounds": 4,
+          "winner": "HEROIC"
+        },
+        {
+          "map_name": "Mirage",
+          "team1_score": 13,
+          "team2_score": 10,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 9,
+          "team2_t_rounds": 3,
+          "team2_ct_rounds": 7,
+          "winner": "Team Liquid"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "timestamp": 1757923200,
+      "team1": "TYLOO",
+      "team2": "The MongolZ",
+      "score1": 1,
+      "score2": 2,
+      "winner": "The MongolZ",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 3 Mid Matches",
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "team1_score": 13,
+          "team2_score": 10,
+          "team1_t_rounds": 7,
+          "team1_ct_rounds": 6,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 4,
+          "winner": "TYLOO"
+        },
+        {
+          "map_name": "Overpass",
+          "team1_score": 10,
+          "team2_score": 13,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 7,
+          "team2_ct_rounds": 6,
+          "winner": "The MongolZ"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 7,
+          "team2_score": 13,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 3,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 8,
+          "winner": "The MongolZ"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "timestamp": 1757923200,
+      "team1": "Virtus.pro",
+      "team2": "Lynn Vision Gaming",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Virtus.pro",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 3 Low Matches",
+      "maps": [
+        {
+          "map_name": "Dust II",
+          "team1_score": 19,
+          "team2_score": 17,
+          "team1_t_rounds": 12,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 11,
+          "team2_ct_rounds": 6,
+          "winner": "Virtus.pro"
+        },
+        {
+          "map_name": "Train",
+          "team1_score": 13,
+          "team2_score": 10,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 6,
+          "winner": "Virtus.pro"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-14",
+      "timestamp": 1757870100,
+      "team1": "FURIA",
+      "team2": "G2 Esports",
+      "score1": 2,
+      "score2": 0,
+      "winner": "FURIA",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 2 High Matches",
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 7,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 3,
+          "winner": "FURIA"
+        },
+        {
+          "map_name": "Overpass",
+          "team1_score": 16,
+          "team2_score": 14,
+          "team1_t_rounds": 9,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 6,
+          "winner": "FURIA"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-14",
+      "timestamp": 1757865000,
+      "team1": "HEROIC",
+      "team2": "PaiN Gaming",
+      "score1": 1,
+      "score2": 2,
+      "winner": "PaiN Gaming",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 2 Low Matches",
+      "maps": [
+        {
+          "map_name": "Dust II",
+          "team1_score": 13,
+          "team2_score": 11,
+          "team1_t_rounds": 3,
+          "team1_ct_rounds": 10,
+          "team2_t_rounds": 2,
+          "team2_ct_rounds": 9,
+          "winner": "HEROIC"
+        },
+        {
+          "map_name": "Mirage",
+          "team1_score": 10,
+          "team2_score": 13,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 7,
+          "team2_ct_rounds": 6,
+          "winner": "PaiN Gaming"
+        },
+        {
+          "map_name": "Nuke",
+          "team1_score": 20,
+          "team2_score": 22,
+          "team1_t_rounds": 8,
+          "team1_ct_rounds": 12,
+          "team2_t_rounds": 9,
+          "team2_ct_rounds": 13,
+          "winner": "PaiN Gaming"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-14",
+      "timestamp": 1757859300,
+      "team1": "Aurora Gaming",
+      "team2": "TYLOO",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Aurora Gaming",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 2 High Matches",
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 10,
+          "team1_t_rounds": 9,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 2,
+          "winner": "Aurora Gaming"
+        },
+        {
+          "map_name": "Mirage",
+          "team1_score": 13,
+          "team2_score": 11,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 6,
+          "winner": "Aurora Gaming"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-14",
+      "timestamp": 1757856300,
+      "team1": "GamerLegion",
+      "team2": "Team Liquid",
+      "score1": 2,
+      "score2": 0,
+      "winner": "GamerLegion",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 2 Low Matches",
+      "maps": [
+        {
+          "map_name": "Dust II",
+          "team1_score": 13,
+          "team2_score": 1,
+          "team1_t_rounds": 2,
+          "team1_ct_rounds": 11,
+          "team2_t_rounds": 1,
+          "team2_ct_rounds": 0,
+          "winner": "GamerLegion"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 6,
+          "team1_t_rounds": 10,
+          "team1_ct_rounds": 3,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 2,
+          "winner": "GamerLegion"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-14",
+      "timestamp": 1757848500,
+      "team1": "Team Falcons",
+      "team2": "Legacy",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Team Falcons",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 2 High Matches",
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 4,
+          "team1_t_rounds": 3,
+          "team1_ct_rounds": 10,
+          "team2_t_rounds": 2,
+          "team2_ct_rounds": 2,
+          "winner": "Team Falcons"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 19,
+          "team2_score": 16,
+          "team1_t_rounds": 8,
+          "team1_ct_rounds": 11,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 10,
+          "winner": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-14",
+      "timestamp": 1757846700,
+      "team1": "Virtus.pro",
+      "team2": "Astralis",
+      "score1": 0,
+      "score2": 2,
+      "winner": "Astralis",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 2 Low Matches",
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "team1_score": 7,
+          "team2_score": 13,
+          "team1_t_rounds": 4,
+          "team1_ct_rounds": 3,
+          "team2_t_rounds": 9,
+          "team2_ct_rounds": 4,
+          "winner": "Astralis"
+        },
+        {
+          "map_name": "Train",
+          "team1_score": 11,
+          "team2_score": 13,
+          "team1_t_rounds": 3,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 9,
+          "winner": "Astralis"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-14",
+      "timestamp": 1757836800,
+      "team1": "FaZe Clan",
+      "team2": "3DMAX",
+      "score1": 2,
+      "score2": 1,
+      "winner": "FaZe Clan",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 2 High Matches",
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "team1_score": 10,
+          "team2_score": 13,
+          "team1_t_rounds": 3,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 8,
+          "winner": "3DMAX"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 13,
+          "team2_score": 3,
+          "team1_t_rounds": 9,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 0,
+          "team2_ct_rounds": 3,
+          "winner": "FaZe Clan"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 13,
+          "team2_score": 6,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 2,
+          "winner": "FaZe Clan"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-14",
+      "timestamp": 1757836800,
+      "team1": "The MongolZ",
+      "team2": "Lynn Vision Gaming",
+      "score1": 2,
+      "score2": 0,
+      "winner": "The MongolZ",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 2 Low Matches",
+      "maps": [
+        {
+          "map_name": "Dust II",
+          "team1_score": 13,
+          "team2_score": 11,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 6,
+          "winner": "The MongolZ"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 13,
+          "team2_score": 6,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 0,
+          "team2_ct_rounds": 6,
+          "winner": "The MongolZ"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "timestamp": 1757783700,
+      "team1": "FURIA",
+      "team2": "Team Liquid",
+      "score1": 2,
+      "score2": 1,
+      "winner": "FURIA",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 1 Matches",
+      "maps": [
+        {
+          "map_name": "Dust II",
+          "team1_score": 9,
+          "team2_score": 13,
+          "team1_t_rounds": 7,
+          "team1_ct_rounds": 2,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 5,
+          "winner": "Team Liquid"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 11,
+          "team1_t_rounds": 9,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 3,
+          "winner": "FURIA"
+        },
+        {
+          "map_name": "Train",
+          "team1_score": 13,
+          "team2_score": 7,
+          "team1_t_rounds": 7,
+          "team1_ct_rounds": 6,
+          "team2_t_rounds": 2,
+          "team2_ct_rounds": 5,
+          "winner": "FURIA"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "timestamp": 1757773800,
+      "team1": "FaZe Clan",
+      "team2": "PaiN Gaming",
+      "score1": 2,
+      "score2": 0,
+      "winner": "FaZe Clan",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 1 Matches",
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "team1_score": 13,
+          "team2_score": 11,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 7,
+          "winner": "FaZe Clan"
+        },
+        {
+          "map_name": "Mirage",
+          "team1_score": 13,
+          "team2_score": 8,
+          "team1_t_rounds": 7,
+          "team1_ct_rounds": 6,
+          "team2_t_rounds": 3,
+          "team2_ct_rounds": 5,
+          "winner": "FaZe Clan"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "timestamp": 1757764200,
+      "team1": "G2 Esports",
+      "team2": "Lynn Vision Gaming",
+      "score1": 2,
+      "score2": 0,
+      "winner": "G2 Esports",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 1 Matches",
+      "maps": [
+        {
+          "map_name": "Dust II",
+          "team1_score": 13,
+          "team2_score": 10,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 7,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 5,
+          "winner": "G2 Esports"
+        },
+        {
+          "map_name": "Inferno",
+          "team1_score": 13,
+          "team2_score": 8,
+          "team1_t_rounds": 8,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 4,
+          "winner": "G2 Esports"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "timestamp": 1757750400,
+      "team1": "HEROIC",
+      "team2": "Legacy",
+      "score1": 1,
+      "score2": 2,
+      "winner": "Legacy",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 1 Matches",
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "team1_score": 13,
+          "team2_score": 9,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 8,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 5,
+          "winner": "HEROIC"
+        },
+        {
+          "map_name": "Mirage",
+          "team1_score": 13,
+          "team2_score": 16,
+          "team1_t_rounds": 3,
+          "team1_ct_rounds": 10,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 11,
+          "winner": "Legacy"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 5,
+          "team2_score": 13,
+          "team1_t_rounds": 2,
+          "team1_ct_rounds": 3,
+          "team2_t_rounds": 9,
+          "team2_ct_rounds": 4,
+          "winner": "Legacy"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-12",
+      "timestamp": 1757694000,
+      "team1": "Aurora Gaming",
+      "team2": "Astralis",
+      "score1": 2,
+      "score2": 1,
+      "winner": "Aurora Gaming",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 1 Matches",
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "team1_score": 8,
+          "team2_score": 13,
+          "team1_t_rounds": 2,
+          "team1_ct_rounds": 6,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 7,
+          "winner": "Astralis"
+        },
+        {
+          "map_name": "Dust II",
+          "team1_score": 16,
+          "team2_score": 14,
+          "team1_t_rounds": 11,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 10,
+          "team2_ct_rounds": 4,
+          "winner": "Aurora Gaming"
+        },
+        {
+          "map_name": "Overpass",
+          "team1_score": 13,
+          "team2_score": 9,
+          "team1_t_rounds": 8,
+          "team1_ct_rounds": 5,
+          "team2_t_rounds": 5,
+          "team2_ct_rounds": 4,
+          "winner": "Aurora Gaming"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-12",
+      "timestamp": 1757686200,
+      "team1": "Team Falcons",
+      "team2": "Virtus.pro",
+      "score1": 2,
+      "score2": 0,
+      "winner": "Team Falcons",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 1 Matches",
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "team1_score": 13,
+          "team2_score": 1,
+          "team1_t_rounds": 2,
+          "team1_ct_rounds": 11,
+          "team2_t_rounds": 1,
+          "team2_ct_rounds": 0,
+          "winner": "Team Falcons"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 13,
+          "team2_score": 2,
+          "team1_t_rounds": 11,
+          "team1_ct_rounds": 2,
+          "team2_t_rounds": 1,
+          "team2_ct_rounds": 1,
+          "winner": "Team Falcons"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-12",
+      "timestamp": 1757673900,
+      "team1": "The MongolZ",
+      "team2": "3DMAX",
+      "score1": 1,
+      "score2": 2,
+      "winner": "3DMAX",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 1 Matches",
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "team1_score": 10,
+          "team2_score": 13,
+          "team1_t_rounds": 6,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 8,
+          "team2_ct_rounds": 5,
+          "winner": "3DMAX"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 13,
+          "team2_score": 5,
+          "team1_t_rounds": 9,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 2,
+          "team2_ct_rounds": 3,
+          "winner": "The MongolZ"
+        },
+        {
+          "map_name": "Nuke",
+          "team1_score": 9,
+          "team2_score": 13,
+          "team1_t_rounds": 5,
+          "team1_ct_rounds": 4,
+          "team2_t_rounds": 6,
+          "team2_ct_rounds": 7,
+          "winner": "3DMAX"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-12",
+      "timestamp": 1757664000,
+      "team1": "GamerLegion",
+      "team2": "TYLOO",
+      "score1": 0,
+      "score2": 2,
+      "winner": "TYLOO",
+      "tournament": "FISSURE/Playground/2",
+      "tournament_page": "FISSURE/Playground/2",
+      "tier": "",
+      "match_type": "",
+      "best_of": "Bo3",
+      "stage": "Round 1 Matches",
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "team1_score": 3,
+          "team2_score": 13,
+          "team1_t_rounds": 0,
+          "team1_ct_rounds": 3,
+          "team2_t_rounds": 9,
+          "team2_ct_rounds": 4,
+          "winner": "TYLOO"
+        },
+        {
+          "map_name": "Ancient",
+          "team1_score": 4,
+          "team2_score": 13,
+          "team1_t_rounds": 3,
+          "team1_ct_rounds": 1,
+          "team2_t_rounds": 4,
+          "team2_ct_rounds": 9,
+          "winner": "TYLOO"
+        }
+      ]
+    }
+  ],
+  "h2h_vitality_navi": {
+    "team1": "Team Vitality",
+    "team2": "Natus Vincere",
+    "team1_wins": 0,
+    "team2_wins": 0,
+    "matches": []
+  }
+}
