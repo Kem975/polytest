@@ -5064,3 +5064,33 @@ date,timestamp,tournament,tournament_page,tier,stage,best_of,team1,team2,series_
 2026-01-01,1767258000,Inferno Cup/Open Scrims,Inferno_Cup/Open_Scrims,C,Group A Matches,Bo3,SHPL,Last Bullet (Chinese team),0,2,Last Bullet (Chinese team),2,Ancient,11,13,6,5,7,6,Last Bullet (Chinese team),False
 2026-01-01,1767251400,Inferno Cup/Open Scrims,Inferno_Cup/Open_Scrims,C,Group A Matches,Bo3,SHPL,Shika,2,0,SHPL,1,Train,13,10,6,7,4,6,SHPL,False
 2026-01-01,1767251400,Inferno Cup/Open Scrims,Inferno_Cup/Open_Scrims,C,Group A Matches,Bo3,SHPL,Shika,2,0,SHPL,2,Overpass,13,5,5,8,4,1,SHPL,False
+2025-12-21,1766310900,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,JiJieHao,Chinggis Warriors,1,2,Chinggis Warriors,1,Dust II,13,9,7,6,4,5,JiJieHao,False
+2025-12-21,1766310900,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,JiJieHao,Chinggis Warriors,1,2,Chinggis Warriors,2,Inferno,17,19,11,6,12,7,Chinggis Warriors,True
+2025-12-21,1766310900,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,JiJieHao,Chinggis Warriors,1,2,Chinggis Warriors,3,Ancient,10,13,6,4,7,6,Chinggis Warriors,False
+2025-12-21,1766298600,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Change The Game,Chinggis Warriors,1,2,Chinggis Warriors,1,Ancient,13,5,2,11,1,4,Change The Game,False
+2025-12-21,1766298600,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Change The Game,Chinggis Warriors,1,2,Chinggis Warriors,2,Dust II,1,13,1,0,2,11,Chinggis Warriors,False
+2025-12-21,1766298600,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Change The Game,Chinggis Warriors,1,2,Chinggis Warriors,3,Mirage,12,16,5,7,6,10,Chinggis Warriors,True
+2025-12-21,1766289600,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Eruption,JiJieHao,0,2,JiJieHao,1,Dust II,3,13,0,3,9,4,JiJieHao,False
+2025-12-21,1766289600,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Eruption,JiJieHao,0,2,JiJieHao,2,Train,1,13,0,1,1,12,JiJieHao,False
+2025-12-20,1766232000,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Rare Atom,Chinggis Warriors,0,2,Chinggis Warriors,1,Ancient,11,13,3,8,4,9,Chinggis Warriors,False
+2025-12-20,1766232000,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Rare Atom,Chinggis Warriors,0,2,Chinggis Warriors,2,Dust II,10,13,3,7,4,9,Chinggis Warriors,False
+2025-12-20,1766217600,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Rooster,Change The Game,1,2,Change The Game,1,Overpass,13,10,4,9,2,8,Rooster,False
+2025-12-20,1766217600,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Rooster,Change The Game,1,2,Change The Game,2,Dust II,9,13,4,5,7,6,Change The Game,False
+2025-12-20,1766217600,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Rooster,Change The Game,1,2,Change The Game,3,Inferno,9,13,7,2,8,5,Change The Game,False
+2025-12-20,1766204400,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Lynn Vision Gaming,JiJieHao,1,2,JiJieHao,1,Ancient,9,13,5,4,8,5,JiJieHao,False
+2025-12-20,1766204400,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Lynn Vision Gaming,JiJieHao,1,2,JiJieHao,2,Nuke,13,10,5,8,3,7,Lynn Vision Gaming,False
+2025-12-20,1766204400,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Lynn Vision Gaming,JiJieHao,1,2,JiJieHao,3,Dust II,5,13,2,3,9,4,JiJieHao,False
+2025-12-20,1766196000,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Team Nemesis Asia (page does not exist),Eruption,0,2,Eruption,1,Overpass,5,13,5,0,6,7,Eruption,False
+2025-12-20,1766196000,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Playoffs,Bo3,Team Nemesis Asia (page does not exist),Eruption,0,2,Eruption,2,Train,5,13,3,2,10,3,Eruption,False
+2025-12-19,1766141100,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group D Matches,Bo1,Change The Game,RAVENS (Japanese team),13,7,Change The Game,1,Inferno,13,7,5,8,4,3,Change The Game,False
+2025-12-19,1766137200,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group D Matches,Bo1,Chinggis Warriors,RAVENS (Japanese team),13,2,Chinggis Warriors,1,Ancient,13,2,3,10,2,0,Chinggis Warriors,False
+2025-12-19,1766132400,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group D Matches,Bo1,Chinggis Warriors,Change The Game,8,13,Change The Game,1,Inferno,8,13,6,2,7,6,Change The Game,False
+2025-12-19,1766126400,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group C Matches,Bo1,Rooster,VTM Esports,13,4,Rooster,1,Inferno,13,4,5,8,4,0,Rooster,False
+2025-12-19,1766122500,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group C Matches,Bo1,Rare Atom,VTM Esports,13,2,Rare Atom,1,Ancient,13,2,3,10,2,0,Rare Atom,False
+2025-12-19,1766116800,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group C Matches,Bo1,Rare Atom,Rooster,13,11,Rare Atom,1,Inferno,13,11,8,5,7,4,Rare Atom,False
+2025-12-18,1766057700,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group B Matches,Bo1,Eruption,Sensation,13,9,Eruption,1,Ancient,13,9,8,5,7,2,Eruption,False
+2025-12-18,1766053800,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group B Matches,Bo1,JiJieHao,Sensation,13,1,JiJieHao,1,Ancient,13,1,2,11,1,0,JiJieHao,False
+2025-12-18,1766046300,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group B Matches,Bo1,JiJieHao,Eruption,16,19,Eruption,1,Ancient,16,19,10,6,12,7,Eruption,True
+2025-12-18,1766041200,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group A Matches,Bo1,Team Nemesis Asia,Deep Cross Gaming,13,6,Team Nemesis Asia,1,Inferno,13,6,7,6,1,5,Team Nemesis Asia,False
+2025-12-18,1766034600,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group A Matches,Bo1,Lynn Vision Gaming,Deep Cross Gaming,11,13,Deep Cross Gaming,1,Ancient,11,13,7,4,8,5,Deep Cross Gaming,False
+2025-12-18,1766030400,EXTREMESLAND/2025,EXTREMESLAND/2025,A,Group A Matches,Bo1,Lynn Vision Gaming,Team Nemesis Asia,13,2,Lynn Vision Gaming,1,Nuke,13,2,3,10,2,0,Lynn Vision Gaming,False

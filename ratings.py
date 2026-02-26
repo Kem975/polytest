@@ -48,7 +48,7 @@ ACTIVE_MAPS = frozenset(
 class Config:
     initial_rating: float = 1500.0
     k_base: dict[str, float] = field(
-        default_factory=lambda: {"S": 32.0, "B": 24.0, "C": 20.0, "Q": 16.0}
+        default_factory=lambda: {"S": 100.0, "A":30.0, "B": 24.0, "C": 20.0, "Q": 16.0}
     )
     time_decay_halflife_days: float = 180.0
     mov_weight: float = 0.5
