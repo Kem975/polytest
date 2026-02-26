@@ -46,19 +46,46 @@ ACTIVE_MAPS = frozenset(
 
 @dataclass
 class Config:
-    initial_rating: float = 1500.0
+    initial_rating: float = 1000.0
     k_base: dict[str, float] = field(
-        default_factory=lambda: {"S": 100.0, "A":30.0, "B": 24.0, "C": 20.0, "Q": 16.0}
+        default_factory=lambda: {"S": 50.0, "A": 30.0, "B": 25.0, "C": 15.0, "Q": 20.0}
     )
-    time_decay_halflife_days: float = 180.0
+    # Asymmetric K multipliers: wins at elite tiers are rewarded more heavily
+    # than losses are penalised.  Ratio k_win/k_loss should stay in [1.5, 2.5].
+    k_win_multiplier: dict[str, float] = field(
+        default_factory=lambda: {"S": 1.4, "A": 1.1, "B": 1.0, "C": 1.0, "Q": 1.0}
+    )
+    k_loss_multiplier: dict[str, float] = field(
+        default_factory=lambda: {"S": 0.7, "A": 0.9, "B": 1.0, "C": 1.0, "Q": 1.0}
+    )
+    # Hard rating ceilings per tier: teams can only break through by competing
+    # at higher-tier events.  S-tier is uncapped.
+    tier_rating_ceiling: dict[str, float] = field(
+        default_factory=lambda: {
+            "C": 1300.0,
+            "B": 1500.0,
+            "A": 1700.0,
+            "S": float("inf"),
+            "Q": 1500.0,
+        }
+    )
+    time_decay_halflife_days: float = 365.0
     mov_weight: float = 0.5
-    mov_cap_series: float = 30.0
+    # MoV cap for series-level Elo now operates on map-win differential
+    # (max 3 in a BO5) rather than total rounds, which was noisy.
+    mov_cap_series: float = 3.0
     mov_cap_map: float = 13.0
     roster_regression: float = 0.4
     roster_k_boost: float = 0.3
     roster_k_boost_games: int = 5
     beta_prior: float = 6.0
     round_decay_halflife_days: float = 120.0
+    # Ensemble & calibration
+    ensemble_weights: dict[str, float] = field(
+        default_factory=lambda: {"elo": 0.45, "map": 0.45, "round": 0.10}
+    )
+    calibration_shrink: float = 0.70
+    min_games_full_confidence: int = 15
 
 
 # ---------------------------------------------------------------------------
@@ -165,7 +192,7 @@ def _build_rosters(lineups_path: str, maps_df: pd.DataFrame) -> dict:
 
 @dataclass
 class EloState:
-    rating: float = 1500.0
+    rating: float = 1000.0
     last_ts: int = 0
     games: int = 0
     k_boost_remaining: int = 0
@@ -209,12 +236,27 @@ class TeamElo:
 
         mov = math.log1p(abs(round_diff)) / math.log1p(self.cfg.mov_cap_series)
         k_tier = self.cfg.k_base.get(tier, 20.0)
-        k = k_tier * (1.0 + self.cfg.mov_weight * mov)
+        k_base_mov = k_tier * (1.0 + self.cfg.mov_weight * mov)
+        ceiling = self.cfg.tier_rating_ceiling.get(tier, float("inf"))
 
-        for team, sign in [(team_a, 1.0), (team_b, -1.0)]:
+        k_win  = self.cfg.k_win_multiplier.get(tier, 1.0)
+        k_loss = self.cfg.k_loss_multiplier.get(tier, 1.0)
+        # Draws are symmetric; wins/losses get the asymmetric multiplier.
+        if outcome_a > 0.5:
+            a_won, b_won = True, False
+        elif outcome_a < 0.5:
+            a_won, b_won = False, True
+        else:
+            a_won, b_won = None, None
+
+        for team, sign, won in [(team_a, 1.0, a_won), (team_b, -1.0, b_won)]:
             st = self.ratings[team]
-            k_eff = k * (1.0 + self.cfg.roster_k_boost) if st.k_boost_remaining > 0 else k
+            asymmetry = 1.0 if won is None else (k_win if won else k_loss)
+            k_eff = k_base_mov * asymmetry
+            if st.k_boost_remaining > 0:
+                k_eff *= (1.0 + self.cfg.roster_k_boost)
             st.rating += k_eff * sign * (outcome_a - exp)
+            st.rating = min(st.rating, ceiling)
             st.last_ts = current_ts
             st.games += 1
             if st.k_boost_remaining > 0:
@@ -277,12 +319,22 @@ class MapElo:
         exp = self.expected_map(team_a, team_b, map_name)
         mov = math.log1p(abs(round_diff)) / math.log1p(self.cfg.mov_cap_map)
         k_tier = self.cfg.k_base.get(tier, 20.0)
-        k = k_tier * (1.0 + self.cfg.mov_weight * mov)
+        k_base_mov = k_tier * (1.0 + self.cfg.mov_weight * mov)
+        ceiling = self.cfg.tier_rating_ceiling.get(tier, float("inf"))
+
+        k_win  = self.cfg.k_win_multiplier.get(tier, 1.0)
+        k_loss = self.cfg.k_loss_multiplier.get(tier, 1.0)
+        if outcome_a > 0.5:
+            asym_a, asym_b = k_win, k_loss
+        elif outcome_a < 0.5:
+            asym_a, asym_b = k_loss, k_win
+        else:
+            asym_a, asym_b = 1.0, 1.0
 
         sa = self.ratings[(team_a, map_name)]
         sb = self.ratings[(team_b, map_name)]
-        sa.rating += k * (outcome_a - exp)
-        sb.rating += k * ((1.0 - outcome_a) - (1.0 - exp))
+        sa.rating = min(sa.rating + k_base_mov * asym_a * (outcome_a - exp), ceiling)
+        sb.rating = min(sb.rating + k_base_mov * asym_b * ((1.0 - outcome_a) - (1.0 - exp)), ceiling)
         sa.last_ts = sb.last_ts = current_ts
         sa.games += 1
         sb.games += 1
@@ -495,6 +547,54 @@ def _series_win_prob(map_probs: list[float], wins_needed: int) -> float:
 
 
 # ---------------------------------------------------------------------------
+# Ensemble & calibration helpers
+# ---------------------------------------------------------------------------
+
+
+def _team_confidence(games_a: int, games_b: int, min_games: int) -> float:
+    """Confidence factor in [0.5, 1.0] based on min games played by either team.
+
+    Returns 0.5 (maximum extra shrinkage) when both teams are brand new,
+    linearly ramping to 1.0 once both have *min_games* observations.
+    """
+    min_g = min(games_a, games_b)
+    if min_g >= min_games:
+        return 1.0
+    return 0.5 + 0.5 * (min_g / max(min_games, 1))
+
+
+def _log_odds_ensemble(
+    probs: dict[str, float],
+    weights: dict[str, float],
+    shrink: float,
+    confidence: float,
+) -> float:
+    """Weighted average in log-odds space with calibration shrinkage.
+
+    Steps:
+      1. Convert each probability to logit(p).
+      2. Weighted average of logits.
+      3. Multiply by *shrink* × *confidence* (pulls toward 0.5).
+      4. Convert back to probability.
+    """
+    eps = 1e-6
+    logit_sum = 0.0
+    w_sum = 0.0
+    for key, p in probs.items():
+        w = weights.get(key, 0.0)
+        if w <= 0:
+            continue
+        p = max(eps, min(1.0 - eps, p))
+        logit_sum += w * math.log(p / (1.0 - p))
+        w_sum += w
+    if w_sum <= 0:
+        return 0.5
+    logit_avg = logit_sum / w_sum
+    logit_cal = shrink * confidence * logit_avg
+    return 1.0 / (1.0 + math.exp(-logit_cal))
+
+
+# ---------------------------------------------------------------------------
 # Layer 4 — Lineup change detection
 # ---------------------------------------------------------------------------
 
@@ -522,8 +622,12 @@ class LineupTracker:
         if prev is None or current_roster == prev:
             return 0.0
 
-        changes = max(len(prev - current_roster), len(current_roster - prev))
-        return min(changes / 5.0, 1.0)
+        # Jaccard distance: 0 = identical roster, 1 = completely new roster.
+        union_size = len(prev | current_roster)
+        if union_size == 0:
+            return 0.0
+        jaccard_similarity = len(prev & current_roster) / union_size
+        return 1.0 - jaccard_similarity
 
 
 # ---------------------------------------------------------------------------
@@ -579,12 +683,26 @@ class RatingEngine:
             map_probs = [p_map_composite] * best_of
         p_map_series = _series_win_prob(map_probs, wins_needed)
 
+        games_a = self.team_elo.ratings[team_a].games
+        games_b = self.team_elo.ratings[team_b].games
+        confidence = _team_confidence(
+            games_a, games_b, self.cfg.min_games_full_confidence
+        )
+
+        p_ensemble = _log_odds_ensemble(
+            {"elo": p_elo_series, "map": p_map_series, "round": p_round},
+            self.cfg.ensemble_weights,
+            self.cfg.calibration_shrink,
+            confidence,
+        )
+
         return {
             "elo_raw": p_elo,
             "elo_series": p_elo_series,
             "map_composite": p_map_composite,
             "map_series": p_map_series,
             "round_series": p_round,
+            "ensemble": p_ensemble,
             "elo_team1": self.team_elo.ratings[team_a].rating,
             "elo_team2": self.team_elo.ratings[team_b].rating,
         }
@@ -603,8 +721,10 @@ class RatingEngine:
         winner = row["winner"]
         outcome_a = 1.0 if winner == t1 else (0.0 if winner == t2 else 0.5)
 
-        rd = row["total_rounds_team1"] - row["total_rounds_team2"]
-        round_diff = rd if outcome_a == 1.0 else -rd
+        # Use map-win differential (e.g. 2-0 → diff=2, 2-1 → diff=1) rather
+        # than noisy round totals which conflate maps played with dominance.
+        map_diff = int(row["score1"]) - int(row["score2"])
+        round_diff = map_diff if outcome_a >= 0.5 else -map_diff
 
         self.team_elo.update(t1, t2, outcome_a, tier, round_diff, ts)
 
@@ -833,7 +953,12 @@ def cmd_backtest(args):
     results.to_csv("backtest_results.csv", index=False)
     log.info("Saved backtest_results.csv")
 
-    pred_cols = ["pred_elo_series", "pred_map_series", "pred_round_series"]
+    pred_cols = [
+        "pred_ensemble",
+        "pred_elo_series",
+        "pred_map_series",
+        "pred_round_series",
+    ]
     for col in pred_cols:
         if col not in results.columns:
             continue
@@ -842,13 +967,12 @@ def cmd_backtest(args):
         print_metrics(m, label=label)
         plot_calibration(m, path=f"calibration_{col.replace('pred_', '')}.png")
 
-    # Per-tier breakdown for the primary model
-    primary = "pred_elo_series"
+    primary = "pred_ensemble"
     for tier in sorted(results["tier"].dropna().unique()):
         subset = results[results["tier"] == tier]
         m = compute_metrics(subset, primary)
         if m:
-            print_metrics(m, label=f"Elo Series — tier {tier}")
+            print_metrics(m, label=f"Ensemble — tier {tier}")
 
 
 def cmd_rankings(args):
@@ -885,6 +1009,8 @@ def cmd_predict(args):
     print(f"  Elo P(win)     : {pred['elo_series']:.1%}")
     print(f"  Map-Elo P(win) : {pred['map_series']:.1%}")
     print(f"  Round P(win)   : {pred['round_series']:.1%}")
+    print(f"  {'─' * 35}")
+    print(f"  Ensemble P(win): {pred['ensemble']:.1%}")
     print()
 
 

@@ -517,7 +517,58 @@ class LiquipediaCSClient:
     #    A) brkts-matchlist  — Swiss / group stage match lists            #
     #    B) brkts-bracket    — playoff bracket trees                      #
     #    C) brkts-match-info-flat — inline flat match results             #
+    #
+    #    Some tournaments (e.g. StarLadder Budapest Major) split content
+    #    across tabs: Overview, Stage_1, Stage_2, Stage_3, Playoffs.
+    #    We discover and fetch sub-pages from nav tabs and "Click here for
+    #    detailed results" links.
     # ================================================================== #
+
+    def _discover_tournament_subpages(self, soup: BeautifulSoup,
+                                       base_page: str) -> list[str]:
+        """
+        Find sub-pages from nav tabs and "Click here for detailed results" links.
+        Returns list of wiki page slugs (e.g. StarLadder/2025/Major/Stage_1).
+        """
+        base_normalized = base_page.replace(" ", "_").strip("/")
+        if not base_normalized:
+            return []
+        seen: set[str] = set()
+        subpages: list[str] = []
+
+        def add_if_subpage(href: str) -> None:
+            if not href or href.startswith("#"):
+                return
+            # Extract page from /counterstrike/PageName or full URL
+            if "/counterstrike/" in href:
+                page = href.split("/counterstrike/", 1)[-1].split("#")[0]
+            elif "liquipedia.net/counterstrike/" in href:
+                page = href.split("counterstrike/", 1)[-1].split("#")[0]
+            else:
+                return
+            page = url_unquote(page).strip("/").replace(" ", "_")
+            if not page or page == base_normalized:
+                return
+            # Only include direct children (e.g. Base/Stage_1)
+            if not page.startswith(base_normalized + "/"):
+                return
+            if page not in seen:
+                seen.add(page)
+                subpages.append(page)
+
+        # 1. Nav tabs: ul.nav-tabs, ul.tabs, .tabs-static
+        for nav in soup.find_all(["ul"], class_=lambda c: c and (
+                "nav-tabs" in c or "tabs" in c)):
+            for a in nav.find_all("a", href=True):
+                add_if_subpage(a["href"])
+
+        # 2. "Click here for detailed results of Stage X" links
+        for a in soup.find_all("a", href=True):
+            text = a.get_text(strip=True).lower()
+            if "click here for detailed results" in text or "detailed results" in text:
+                add_if_subpage(a["href"])
+
+        return subpages
 
     def get_tournament_matches(self, tournament_page: str,
                                 soup: BeautifulSoup = None) -> list[Match]:
@@ -529,6 +580,17 @@ class LiquipediaCSClient:
         matches.extend(self._parse_brackets(soup, tournament_page))
         matches.extend(self._parse_flat_popups(soup, tournament_page))
 
+        # Discover and fetch sub-pages (Stage_1, Stage_2, Stage_3, Playoffs)
+        subpages = self._discover_tournament_subpages(soup, tournament_page)
+        for subpage in subpages:
+            try:
+                sub_soup = self._fetch_html(subpage)
+                matches.extend(self._parse_matchlists(sub_soup, tournament_page))
+                matches.extend(self._parse_brackets(sub_soup, tournament_page))
+                matches.extend(self._parse_flat_popups(sub_soup, tournament_page))
+            except Exception as e:
+                logger.warning(f"Failed to fetch sub-page '{subpage}': {e}")
+
         seen: set[tuple] = set()
         unique: list[Match] = []
         for m in matches:
@@ -538,7 +600,8 @@ class LiquipediaCSClient:
                 unique.append(m)
 
         unique.sort(key=lambda m: m.timestamp or 0, reverse=True)
-        logger.info(f"Found {len(unique)} matches on '{tournament_page}'")
+        logger.info(f"Found {len(unique)} matches on '{tournament_page}'"
+                    + (f" and {len(subpages)} sub-pages" if subpages else ""))
         return unique
 
     # --- 3A: brkts-matchlist (Swiss / group stage) ---
